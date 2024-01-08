@@ -50,6 +50,19 @@
 // console.log(1+(4*5)%4)
 
 
-console.log(+true)
-console.log(true)
-console.log(+"")
+// console.log(+true)
+// console.log(true)
+// console.log(+"")
+// console.log(true+)
+
+// let num1, num2, num3
+
+// num1 = num2 = num3 = 5+5
+
+let gamecount = 100
+gamecount++
+console.log(gamecount++)
+
+let gameCounter =100
+gameCounter++;
+console.log(gameCounter++);

@@ -22,11 +22,11 @@ let useEmail;
 const id = Symbol("123")
 const id1 = Symbol("123")
 
-console.log(id === id1)
+// console.log(id === id1)
 
 const BigNumber = 46266222693662563n
 
-console.log(typeof BigNumber)
+// console.log(typeof BigNumber)
 
 // Array,Objects,Functions
 const hero = ["shaktiman","nagraj","doga"]
@@ -37,3 +37,30 @@ let myobj = {
 const myFunction = function(){
     console.log("Hello Raja_Ji")
 }
+
+/* +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ */
+/* Types of memory 
+    1. Stack Memory (Premitive)
+    2. Heap Memory (Non - Premitive)
+*/ 
+
+let My_name = "Vaibhav"
+let another_name = My_name
+
+console.log(another_name)
+
+another_name = "Raja_Ji"
+
+console.log(another_name)
+
+let userOne = {
+    user_name : "vaibhav@gmail.com",
+    upi_id: "userone@ybl"
+}
+
+let userTwo = userOne
+userTwo.user_name ="raja_ji@gmail.com"
+console.log(userOne.user_name)
+console.log(userTwo.user_name)
+
+
