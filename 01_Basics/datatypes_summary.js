@@ -63,4 +63,3 @@ userTwo.user_name ="raja_ji@gmail.com"
 console.log(userOne.user_name)
 console.log(userTwo.user_name)
 
-
